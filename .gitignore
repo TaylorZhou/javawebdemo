@@ -1,0 +1,17 @@
+.project
+.classpath
+.settings
+.idea
+target
+*.log
+war
+jar
+bin
+.code
+.vscode
+*.iml
+
+activiti-web/src/main/webapp/WEB-INF/classes/
+activiti-web/src/main/webapp/WEB-INF/lib/
+
+
