@@ -1,0 +1,44 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>SessionDemo1</servlet-name>
+    <servlet-class>com.test.zx.servlet.SessionDemo1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SessionDemo1</servlet-name>
+    <url-pattern>/SessionDemo1/*</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>IndexServlet</servlet-name>
+    <servlet-class>com.test.zx.servlet.session.IndexServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>IndexServlet</servlet-name>
+    <url-pattern>/servlet/IndexServlet/*</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>BuyServlet</servlet-name>
+    <servlet-class>com.test.zx.servlet.session.BuyServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BuyServlet</servlet-name>
+    <url-pattern>/servlet/BuyServlet/*</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ListCartServlet</servlet-name>
+    <servlet-class>com.test.zx.servlet.session.ListCartServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ListCartServlet</servlet-name>
+    <url-pattern>/servlet/ListCartServlet/*</url-pattern>
+  </servlet-mapping>
+
+</web-app>
