@@ -5,7 +5,8 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 
 public class UserUtil {
 
-    public static User getBusinessSystemUserRepresentation(ObjectNode objectNode){
+
+/*    public static User getBusinessSystemUserRepresentation(ObjectNode objectNode){
         User user = new User();
         String userId = null;
         JsonNode userIdNode = objectNode.get("userId");
@@ -23,5 +24,5 @@ public class UserUtil {
             }
         }
         return user;
-    }
+    }*/
 }
