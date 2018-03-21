@@ -1,4 +1,4 @@
-package com.test.zx.test;
+package com.test.zx.lombok;
 
 import lombok.*;
 import lombok.experimental.Accessors;
