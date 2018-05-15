@@ -2,6 +2,7 @@ package com.test.zx.test;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
+import com.test.zx.lombok.User;
 
 public class UserUtil {
 
